@@ -1,5 +1,3 @@
----
-
 
 ROS has moved from primarily a research tool, to one with very real world applications. Here are a few key areas where ROS is being used:
 
