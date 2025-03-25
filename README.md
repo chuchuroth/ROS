@@ -16,6 +16,7 @@ ros2 pkg create --build-type ament_cmake --license Apache-2.0 <package_name>    
 ros2 pkg create --build-type ament_python --license Apache-2.0 <package_name>     # create a package with python
 
 ros2 run <package> <node>   # run node
+ros2 launch <package_name> <launch_file_name>  # run launch file
 
 source install/local_setup.bash  # source local workspace
 
