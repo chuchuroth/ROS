@@ -19,6 +19,7 @@ ros2 run <package> <node>   # run node
 ros2 launch <package_name> <launch_file_name>  # run launch file
 
 source install/local_setup.bash  # source local workspace
+source devel/setup.bash   # 
 
 rm -r <directory> # remove repository
 
