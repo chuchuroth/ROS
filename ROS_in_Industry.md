@@ -315,58 +315,6 @@ ROS has moved from primarily a research tool, to one with very real world applic
 It's important to note that while some robots may "run" ROS directly, in many industrial applications, ROS is used as a development platform. The final product might use a more streamlined, embedded system for real-time performance and reliability.
 
 ---------
-You're right, while ROS is fantastic for development, many production-ready robots rely on streamlined, embedded systems for the critical real-time performance and reliability needed in demanding applications. Here are some examples:
-
-**1. Industrial Robot Arms (High-Speed Assembly, Welding):**
-
-* **ABB, FANUC, KUKA Robots:**
-    * These industry giants use proprietary embedded systems for their robot controllers.
-    * These systems are highly optimized for deterministic motion control, ensuring precise and repeatable movements at high speeds.
-    * They often use real-time operating systems (RTOS) to guarantee timely execution of tasks.
-    * While they might offer ROS drivers for integration, the core control logic resides in their embedded systems.
-* **Purpose:**
-    * High-speed assembly lines, welding, material handling, where millisecond-level precision is essential.
-
-**2. Autonomous Mobile Robots (AMRs) in Warehouses/Factories:**
-
-* **MiR (Mobile Industrial Robots), Locus Robotics:**
-    * These companies use embedded systems with custom software for their AMRs.
-    * They prioritize real-time sensor processing (lidar, cameras) for obstacle avoidance and navigation.
-    * They focus on reliability for 24/7 operation in busy environments.
-    * Purpose:
-        * Moving materials, order fulfillment, and other logistical tasks.
-* **Amazon Robotics:**
-    * Amazon robotics uses a proprietary embedded system in their orange Kiva robots, that move shelves around fulfillment centers.
-    * Purpose:
-        * Extremely high through put of products in a very busy environment.
-
-**3. Surgical Robots:**
-
-* **da Vinci Surgical System (Intuitive Surgical):**
-    * This robot uses a highly specialized embedded system for precise control of surgical instruments.
-    * Real-time feedback and control are crucial for patient safety.
-    * The system must meet stringent safety and reliability standards.
-* **Purpose:**
-    * Minimally invasive surgery, where precision and dexterity are paramount.
-
-**4. Automotive Robots (Autonomous Driving):**
-
-* **Self-Driving Cars (Tesla, Waymo):**
-    * These vehicles use powerful embedded systems with specialized processors (GPUs, ASICs) for real-time sensor fusion and decision-making.
-    * They require extremely low latency for safe operation in dynamic environments.
-    * Purpose:
-        * Navigating roads, detecting obstacles, and making real-time driving decisions.
-
-**Key Characteristics of These Embedded Systems:**
-
-* **Real-Time Operating Systems (RTOS):** To guarantee timely execution of critical tasks.
-* **Deterministic Behavior:** To ensure predictable and repeatable performance.
-* **Hardware Acceleration:** Using specialized processors (GPUs, FPGAs, ASICs) for high-performance sensor processing and control.
-* **Robustness and Reliability:** Designed for continuous operation in harsh environments.
-* **Safety Certification:** In critical applications (medical, automotive), systems must meet strict safety standards.
-
-In essence, these embedded systems are highly tailored to the specific needs of the robot and its application, prioritizing real-time performance, reliability, and safety.
-
 
 ***
 Engaging with open-source robotics projects is a fantastic way to deepen your understanding and contribute to the community. Here's a step-by-step guide to help you get started:
